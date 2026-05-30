@@ -1,7 +1,3 @@
-# Compare user skills with required career skills
-# Input: selected career + user skills
-# Output: missing skills (skill gap)
-
 from models.carrier_model import CareerModel
 
 class SkillGapService:

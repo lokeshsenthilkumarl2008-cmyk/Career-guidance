@@ -1,8 +1,3 @@
-# Handle chatbot interactions
-# Function: chat_with_user(message)
-# Call ai_service to generate response
-# Maintain simple conversation flow
-# Return chatbot reply
 
 from services.ai_aervice import AIService
 from utilis.helpers import format_response

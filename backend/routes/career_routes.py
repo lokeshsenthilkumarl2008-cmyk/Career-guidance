@@ -1,4 +1,3 @@
-
 from flask import Blueprint, request, jsonify
 from controllers.career_controllers import CareerController
 

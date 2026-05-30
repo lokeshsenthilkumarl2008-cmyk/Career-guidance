@@ -1,8 +1,3 @@
-# Create scoring logic for career matching
-# Function: calculate_score(user_skills, career_skills)
-# Compare overlap between skills
-# Return percentage match (0–100)
-
 def calculate_score(user_skills, career_skills):
     """
     Calculate the percentage match between user skills and career required skills.

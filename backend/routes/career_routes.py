@@ -1,9 +1,3 @@
-# Create Flask routes for career recommendations
-# Endpoint: POST /analyze
-# Input: JSON with skills, interests, education
-# Call career_controller to process request
-# Return career suggestions, explanation, and match score
-# Handle invalid input and errors
 
 from flask import Blueprint, request, jsonify
 from controllers.career_controllers import CareerController

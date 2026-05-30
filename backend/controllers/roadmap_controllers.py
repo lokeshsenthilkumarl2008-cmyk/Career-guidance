@@ -1,8 +1,4 @@
-# Handle roadmap generation logic
-# Function: get_roadmap(career_name)
-# Call roadmap_service
-# Return structured roadmap steps
-# Handle invalid career input and errors
+
 
 from services.roadmap_service import RoadmapService
 from services.skill_gap_service import SkillGapService

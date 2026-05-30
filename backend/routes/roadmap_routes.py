@@ -1,8 +1,3 @@
-# Endpoint: GET /roadmap
-# Input: career name
-# Call roadmap_service
-# Return learning roadmap
-
 from flask import Blueprint, request, jsonify
 from controllers.roadmap_controllers import RoadmapController
 

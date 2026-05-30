@@ -1,0 +1,71 @@
+<!--
+Create a roadmap/timeline page
+
+Sections:
+- Navbar
+- Career Title
+- Timeline view:
+  - Step 1: Basics
+  - Step 2: Intermediate
+  - Step 3: Advanced
+  - Step 4: Projects
+
+- Progress bar at top
+
+Design:
+- Vertical timeline UI
+- Clean spacing and icons
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roadmap - Career Advisor</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/components.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">Career Advisor</h1>
+            <ul class="nav-links">
+                <li><a href="intex.html">Home</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Roadmap Content -->
+    <section class="roadmap">
+        <div class="container">
+            <h2 id="career-title">Learning Roadmap</h2>
+
+            <!-- Progress Bar -->
+            <div class="progress-container">
+                <div class="progress-bar">
+                    <div id="progress-fill" class="progress-fill"></div>
+                </div>
+                <span id="progress-text">0% Complete</span>
+            </div>
+
+            <!-- Timeline -->
+            <div id="timeline" class="timeline">
+                <!-- Timeline items will be dynamically inserted here -->
+            </div>
+
+            <div id="loading" class="loading">Loading roadmap...</div>
+            <div id="error-message" class="error-message"></div>
+        </div>
+    </section>
+
+    <script src="js/roadmap.js"></script>
+    <script src="js/progress.js"></script>
+    <script src="js/api.js"></script>
+</body>
+
+</html>

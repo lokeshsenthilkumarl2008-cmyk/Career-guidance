@@ -1,0 +1,53 @@
+[
+    {
+        "id": 1,
+        "title": "Software Engineer",
+        "category": "Engineering",
+        "description": "Designs, develops, and maintains software applications.",
+        "skills": [
+            "Python",
+            "REST APIs",
+            "Databases",
+            "Unit Testing",
+            "Git"
+        ],
+        "education": "Bachelor’s degree in Computer Science or related field",
+        "experience": "2+ years of software development experience",
+        "salary_range": "70,000-120,000",
+        "job_growth": "High"
+    },
+    {
+        "id": 2,
+        "title": "Data Analyst",
+        "category": "Data",
+        "description": "Analyzes data to help businesses make informed decisions.",
+        "skills": [
+            "SQL",
+            "Excel",
+            "Tableau",
+            "Python",
+            "Data Visualization"
+        ],
+        "education": "Bachelor’s degree in Statistics, Mathematics, or equivalent",
+        "experience": "1+ years of data analytics experience",
+        "salary_range": "55,000-90,000",
+        "job_growth": "High"
+    },
+    {
+        "id": 3,
+        "title": "Product Manager",
+        "category": "Product",
+        "description": "Defines product vision and leads cross-functional teams to deliver value.",
+        "skills": [
+            "Roadmapping",
+            "Stakeholder Management",
+            "Agile",
+            "User Research",
+            "Prioritization"
+        ],
+        "education": "Bachelor’s degree in Business or related field",
+        "experience": "3+ years product or project management experience",
+        "salary_range": "85,000-140,000",
+        "job_growth": "Moderate"
+    }
+]

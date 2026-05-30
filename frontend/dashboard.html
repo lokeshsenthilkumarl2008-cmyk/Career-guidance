@@ -1,0 +1,73 @@
+<!--
+Create a dashboard page to display career recommendations
+
+Sections:
+- Navbar
+- Career Cards (dynamic)
+  Each card shows:
+  - Career name
+  - Match percentage
+  - Explanation
+  - Missing skills
+
+- Button → View Roadmap (redirect to roadmap.html)
+
+Layout:
+- Grid or card layout
+- Responsive design
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Career Advisor</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/components.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">Career Advisor</h1>
+            <ul class="nav-links">
+                <li><a href="intex.html">Home</a></li>
+                <li><a href="onboarding.html">New Analysis</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Dashboard Content -->
+    <section class="dashboard">
+        <div class="container">
+            <h2>Your Career Recommendations</h2>
+            <div id="career-cards" class="career-grid">
+                <!-- Career cards will be dynamically inserted here -->
+            </div>
+            <div id="loading" class="loading">Loading recommendations...</div>
+            <div id="error-message" class="error-message"></div>
+        </div>
+    </section>
+
+    <!-- Chatbot -->
+    <div id="chatbot-container" class="chatbot-container">
+        <div id="chatbot-toggle" class="chatbot-toggle">💬 Chat</div>
+        <div id="chatbot-window" class="chatbot-window">
+            <div class="chatbot-header">Career Advisor Chat</div>
+            <div id="chat-messages" class="chat-messages"></div>
+            <div class="chat-input-container">
+                <input type="text" id="chat-input" placeholder="Ask me anything about careers...">
+                <button id="chat-send">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/dashboard.js"></script>
+    <script src="js/chatbot.js"></script>
+    <script src="js/api.js"></script>
+</body>
+
+</html>

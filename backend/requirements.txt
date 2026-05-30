@@ -1,0 +1,23 @@
+Flask==3.0.3
+flask-cors==4.0.1
+
+# Database (SQLite support comes built-in, but ORM optional)
+SQLAlchemy==2.0.30
+
+# Environment variables
+python-dotenv==1.0.1
+
+# HTTP requests (for Groq API)
+requests==2.32.3
+
+# Data handling
+pydantic==2.8.2
+
+# Logging & utilities
+loguru==0.7.2
+
+# Optional (for better structure)
+marshmallow==3.21.3
+
+# pro version of the app (if needed)
+ gunicorn==22.0.0

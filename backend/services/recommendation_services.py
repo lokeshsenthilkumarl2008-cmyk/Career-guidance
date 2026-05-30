@@ -1,10 +1,3 @@
-# Build recommendation engine
-# Input: user skills, interests
-# Load career data from careers.json
-# Match user profile with careers
-# Calculate score for each career
-# Return top 3–5 careers with match percentage and explanation
-
 from models.carrier_model import CareerModel
 import json
 

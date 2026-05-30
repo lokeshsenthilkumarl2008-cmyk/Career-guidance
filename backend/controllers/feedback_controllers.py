@@ -1,11 +1,3 @@
-# Handle user feedback
-# Function: submit_feedback(data)
-# Store feedback in database or log
-# Accept:
-# - user_id
-# - rating
-# - comments
-# Return success response or error message
 
 from database.db import execute_query
 from utilis.helpers import validate_input, format_response

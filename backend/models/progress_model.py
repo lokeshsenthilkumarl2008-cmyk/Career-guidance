@@ -1,12 +1,3 @@
-# Define user progress model
-# Fields:
-# - user_id
-# - completed_skills
-# - current_step
-# - progress_percentage
-# Functions:
-# - save_progress()
-# - get_progress(user_id)
 
 import json
 from database.db import connect_db

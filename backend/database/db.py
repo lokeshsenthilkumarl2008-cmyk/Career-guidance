@@ -1,13 +1,3 @@
-# Setup SQLite database connection
-# Create connection function
-# Ensure connection reuse and proper closing
-# Define functions to execute queries and fetch results
-# Handle database initialization and migrations if needed
-# Example functions:
-# - connect_db() → returns connection
-# - execute_query(query, params) → executes query with parameters
-# - fetch_one(query, params) → returns single result
-# - fetch_all(query, params) → returns list of results
 
 import sqlite3
 import os

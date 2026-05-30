@@ -1,11 +1,3 @@
-# Handle business logic for career recommendations
-# Receive request data from route
-# Call recommendation_engine service
-# Format response JSON:
-# - careers
-# - match_score
-# - explanation
-# Return response to client
 
 from services.recommendation_services import RecommendationService
 from utilis.helpers import validate_input, format_response

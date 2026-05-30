@@ -1,17 +1,3 @@
-# Handle user-related logic
-# Functions:
-# - create_user(data)
-# - get_user(user_id)
-# - update_user(user_id, data)
-# Interact with user_model
-# Validate input data
-# Return JSON-friendly responses
-# Handle errors and edge cases (e.g., user not found, invalid data)
-# Use logging for debugging and monitoring
-# Consider security best practices (e.g., password hashing, input sanitization)
-# Integrate with authentication system if needed (e.g., JWT tokens)
-# Ensure code is modular and maintainable for future features (e.g., user preferences, history)
-#  Implement unit tests for user_controller functions to ensure reliability and catch bugs early.
 
 from models.user_model import UserModel
 from utilis.helpers import validate_input, format_response

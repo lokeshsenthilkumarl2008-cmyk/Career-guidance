@@ -1,4 +1,3 @@
-
 import sqlite3
 import json
 from database.db import connect_db

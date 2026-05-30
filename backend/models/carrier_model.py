@@ -1,21 +1,4 @@
-# Define career model for SQLite
-# Fields:
-# - id
-# - title
-# - category
-# - description
-# - skills (JSON)
-# - education
-# - experience
-# - salary_range
-# - job_growth
-# Load data from database
-# Provide functions:
-# - get_all_careers()
-# - get_career_by_id(id)
-# - get_career_by_name(name)
-# - get_careers_by_skill(skill)
-# - get_careers_by_category(category)
+
 
 import json
 from database.db import connect_db

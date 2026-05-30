@@ -1,7 +1,3 @@
-// Build chatbot functionality
-// Send user message to /chat API
-// Display responses in chat UI
-
 document.addEventListener('DOMContentLoaded', function () {
     const chatbotToggle = document.getElementById('chatbot-toggle');
     const chatbotWindow = document.getElementById('chatbot-window');

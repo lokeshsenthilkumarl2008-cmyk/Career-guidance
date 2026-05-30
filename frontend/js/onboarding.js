@@ -1,7 +1,3 @@
-// Capture user input (skills, interests, education)
-// Send data to backend /analyze API
-// Redirect to dashboard with results
-
 document.addEventListener('DOMContentLoaded', function () {
     const form = document.getElementById('onboarding-form');
     const errorMessage = document.getElementById('error-message');

@@ -1,8 +1,4 @@
--- Database schema for One Stop Career Backend
--- This file contains all necessary tables for storing user data, career information, progress tracking, and feedback
 
--- Create users table
--- Stores user profile information including skills, interests, and education
 CREATE TABLE IF NOT EXISTS users (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     name TEXT NOT NULL,

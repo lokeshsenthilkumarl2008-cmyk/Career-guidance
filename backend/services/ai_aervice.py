@@ -1,11 +1,3 @@
-# Integrate Groq API for AI responses
-# Function: generate_response(prompt)
-# Use model: ollama3-8b-8192
-# Input: prompt text
-# Output: AI-generated response
-# Use Bearer token authentication
-# Handle API errors and rate limits
-
 import requests
 import os
 from config import GROQ_API_KEY

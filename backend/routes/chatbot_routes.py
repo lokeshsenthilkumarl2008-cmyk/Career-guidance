@@ -1,9 +1,3 @@
-# Create chatbot endpoint
-# POST /chat
-# Input: user message
-# Call ai_service to generate response
-# Return chatbot reply
-
 from flask import Blueprint, request, jsonify
 from controllers.chatbot_controllers import ChatbotController
 

@@ -1,9 +1,3 @@
-// Track and display user progress
-// Fetch progress data from backend
-// Update progress bar UI
-// Show completed skills and current step
-// Handle updates dynamically
-
 document.addEventListener('DOMContentLoaded', function () {
     // Initialize progress tracking
     updateProgressDisplay();

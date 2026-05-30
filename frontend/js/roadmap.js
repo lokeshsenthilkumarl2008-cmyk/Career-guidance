@@ -1,6 +1,3 @@
-// Fetch roadmap from backend
-// Display steps in timeline format
-
 document.addEventListener('DOMContentLoaded', function () {
     const timeline = document.getElementById('timeline');
     const careerTitle = document.getElementById('career-title');

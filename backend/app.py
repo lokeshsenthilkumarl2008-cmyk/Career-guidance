@@ -1,34 +1,3 @@
-"""
-Project: One Stop Personalized Career and Educational Adviser
-
-Backend: Flask
-Frontend: HTML, CSS, JavaScript
-Database: SQLite
-AI: Groq API
-
-Goal:
-Build an AI-powered system that:
-- Takes user skills, interests, education
-- Suggests best career paths
-- Explains why each career fits
-- Identifies skill gaps
-- Generates a learning roadmap
-- Provides chatbot support
-- Tracks user progress
-
-Architecture:
-- Routes → Controllers → Services → Models → Database
-- Services contain core logic (AI, recommendations, roadmap)
-
-Requirements:
-- Modular, clean, production-ready code
-- Proper error handling
-- JSON-based APIs
-- Scalable structure
-
-Generate the Flask app accordingly with all routes registered.
-"""
-
 from flask import Flask
 from flask_cors import CORS
 from config import FLASK_CONFIG

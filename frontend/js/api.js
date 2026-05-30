@@ -1,11 +1,3 @@
-// Create functions to call backend APIs
-// Functions:
-// - analyzeUser(data)
-// - getRoadmap(career)
-// - sendChat(message)
-// Use fetch API
-// Handle errors properly
-
 const API_BASE_URL = 'http://localhost:5000'; // Adjust if needed
 
 async function analyzeUser(data) {

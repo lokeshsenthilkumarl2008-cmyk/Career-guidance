@@ -1,10 +1,3 @@
-# Create helper utility functions
-# Functions:
-# - validate_input(data)
-# - format_response(success, data, message)
-# - load_json_file(path)
-# Reusable across project
-
 import json
 import os
 

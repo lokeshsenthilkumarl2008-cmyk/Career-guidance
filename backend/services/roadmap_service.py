@@ -1,11 +1,3 @@
-# Generate learning roadmap for a career
-# Input: career + missing skills
-# Output: step-by-step roadmap
-# Example:
-# Step 1 → Learn basics
-# Step 2 → Build project
-# Step 3 → Advanced topics
-
 from models.carrier_model import CareerModel
 
 class RoadmapService:

@@ -1,11 +1,3 @@
-# Create Flask routes for user operations
-# Endpoints:
-# POST /user → create user
-# GET /user/<id> → get user details
-# PUT /user/<id> → update user
-# Call user_controller functions
-# Return JSON responses
-
 from flask import Blueprint, request, jsonify
 from controllers.user_controllers import UserController
 

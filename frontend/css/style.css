@@ -1,22 +1,3 @@
-/*
-Create global styles for the app
-
-Include:
-- Reset default margins and padding
-- Set font-family (modern clean font)
-- Body background color (light theme)
-- Container width and alignment
-- Button styles (primary + hover effects)
-- Form styles
-- Card styles (shadow, padding, border radius)
-- Responsive design (mobile-friendly)
-
-Use consistent color palette:
-- Primary color (blue/purple)
-- Secondary color (light gray)
-*/
-
-/* Reset and base styles */
 * {
     margin: 0;
     padding: 0;

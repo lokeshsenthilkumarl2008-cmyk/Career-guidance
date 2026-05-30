@@ -1,11 +1,3 @@
-# Define user model for SQLite
-# Fields:
-# - id
-# - name
-# - skills
-# - interests
-# - progress
-# Include functions to save and fetch users
 
 import sqlite3
 import json

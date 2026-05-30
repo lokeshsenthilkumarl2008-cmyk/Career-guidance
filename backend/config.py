@@ -1,10 +1,3 @@
-# Application configuration
-# Store:
-# - Database path
-# - API keys (Groq)
-# - App settings (debug mode)
-# Use environment variables where possible
-
 import os
 
 # Database

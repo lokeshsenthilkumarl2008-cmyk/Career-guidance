@@ -1,10 +1,3 @@
-// Display career suggestions
-// Show:
-// - career name
-// - match percentage
-// - explanation
-// - missing skills
-
 document.addEventListener('DOMContentLoaded', function () {
     const careerCards = document.getElementById('career-cards');
     const loading = document.getElementById('loading');
